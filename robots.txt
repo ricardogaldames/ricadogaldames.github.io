@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ricardogaldames.github.io/ricadogaldames.github.io/sitemap.xml
