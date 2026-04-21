@@ -1,0 +1,99 @@
+:root {
+    --cafe: #8d7366;
+    --crema: #fdfaf7;
+    --oscuro: #352f2c;
+    --suave: #a69085;
+}
+
+body {
+    background-color: var(--crema);
+    color: var(--oscuro);
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Header */
+.logo-marca {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--cafe);
+    font-style: italic;
+}
+
+.nav-link {
+    color: var(--oscuro);
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: var(--cafe);
+}
+
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1) grayscale(100%);
+    /* Flechas negras */
+}
+
+/* Tarjetas */
+.card {
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 30px rgba(141, 115, 102, 0.15) !important;
+}
+
+.contenedor-img {
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.titulo-seccion {
+    font-weight: 800;
+    color: var(--cafe);
+}
+
+.subtitulo {
+    font-style: italic;
+    color: var(--suave);
+}
+
+.btn-artesano {
+    background-color: var(--cafe);
+    color: white;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-artesano:hover {
+    background-color: var(--oscuro);
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: var(--oscuro);
+    color: #e0d6d1;
+    padding-top: 50px;
+    margin-top: 80px;
+}
