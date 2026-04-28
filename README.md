@@ -27,3 +27,5 @@ Interactividad: Uso de Java (Script) para mejorar la experiencia del usuario.
 
 📝 Notas del Desarrollador
 Este trabajo fue realizado enfocándose en la experiencia de usuario (UX) y la identidad visual. Se prestó especial atención a que los colores y la disposición de los elementos transmitieran la suavidad y el detalle propios del tejido a mano.
+
+Hecho con ❤️ por [Ricardo Galdames] 
