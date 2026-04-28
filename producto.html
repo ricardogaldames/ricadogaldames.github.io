@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre-Lazadas Prodcutos</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="Imagenes/Favicon/favicom.png" type="image/png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilo/style.css">
+
+</head>
+
+<body>
+
+    <button class="btn-volver" onclick="volverAtras()">
+        <span class="flecha">←</span>
+        Volver
+    </button>
+
+    <section class="productos">
+
+        <!-- MONSTRUOS -->
+        <div class="producto">
+            <img id="imgMonstruo" src="Imagenes/Productos/moustritoslila.jpeg">
+
+            <div class="info">
+                <h3>Muñecos Monstruos</h3>
+                <p>Tejidos a mano, ideales para decorar o regalar.</p>
+
+                <div class="colores">
+                    <span>Colores disponibles</span>
+                    <div class="color-opciones">
+                        <div class="color active" style="background:#c8a2c8;"
+                            onclick="cambiarColor('imgMonstruo', this, 'lila')"></div>
+
+                        <div class="color" style="background:#ff9ecb;"
+                            onclick="cambiarColor('imgMonstruo', this, 'rosa')"></div>
+
+                        <div class="color" style="background:#6fa8dc;"
+                            onclick="cambiarColor('imgMonstruo', this, 'azul')"></div>
+                    </div>
+                </div>
+
+                <a class="btn-comprar"
+                    href="https://api.whatsapp.com/send?phone=541164510568&text=Me+intereso+tus+trabajos+artesanales!!!+Quiero+uno"
+                    target="_blank">
+                    Comprar
+                </a>
+            </div>
+        </div>
+
+
+        <!-- CONEJOS -->
+        <div class="producto">
+            <img id="imgConejo" src="Imagenes/Productos/conejogris.jpeg">
+
+            <div class="info">
+                <h3>Muñecos Conejos</h3>
+                <p>Suaves, artesanales y únicos, para vos o para tus amigos.</p>
+
+                <div class="colores">
+                    <span>Colores disponibles</span>
+                    <div class="color-opciones">
+                        <div class="color active" style="background:#b7b7b7;"
+                            onclick="cambiarColor('imgConejo', this, 'gris')"></div>
+
+                        <div class="color" style="background:#f4c2c2;"
+                            onclick="cambiarColor('imgConejo', this, 'rosa')"></div>
+
+                        <div class="color" style="background:#d9c2a3;"
+                            onclick="cambiarColor('imgConejo', this, 'arena')"></div>
+                    </div>
+                </div>
+
+                <a class="btn-comprar"
+                    href="https://api.whatsapp.com/send?phone=541164510568&text=Me+intereso+tus+trabajos+artesanales!!!+Quiero+uno"
+                    target="_blank">
+                    Comprar
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Cartuchera o Necesers -->
+        <div class="producto">
+
+            <img id="imgCartuchera" src="Imagenes/Productos/cartucheraOjoturcoyarcoiris.jpeg" class="producto-img">
+
+            <div class="info">
+                <h3>Cartuchera / Neceser</h3>
+                <p>Tejido en hilo de algodón, forrado por dentro con cierre hecho a mano.</p>
+
+                <div class="colores">
+                    <span>Colores disponibles</span>
+
+                    <div class="color-opciones">
+                        <div class="color active" style="background:#a8dadc;"
+                            onclick="cambiarColor('imgCartuchera', this, 'arcoiris')">
+                        </div>
+
+                        <div class="color" style="background:#ff4d6d;"
+                            onclick="cambiarColor('imgCartuchera', this, 'sandia')">
+                        </div>
+
+                        <div class="color" style="background:#adb5bd;"
+                            onclick="cambiarColor('imgCartuchera', this, 'mix')">
+                        </div>
+                    </div>
+                </div>
+
+                <a class="btn-comprar"
+                    href="https://api.whatsapp.com/send?phone=541164510568&text=Hola!%20Quiero%20una%20cartuchera"
+                    target="_blank">
+                    Comprar
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="java.js"></script>
+
+</body>
+
+</html>
