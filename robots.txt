@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /privado/
+
+Allow: /Imagenes/
+Allow: /estilo/
+Allow: /*.css$
+Allow: /*.js$
+
+Sitemap: https://ricardogaldames.github.io/ricadogames.github.io/sitemap.xml
+
+Host: https://ricardogaldames.github.io
