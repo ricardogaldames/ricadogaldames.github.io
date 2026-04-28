@@ -97,3 +97,4 @@ function cambiarColor(idImg, elemento, color) {
     elemento.classList.add("active");
 }
     
+    
